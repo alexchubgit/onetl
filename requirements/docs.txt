@@ -1,0 +1,15 @@
+autodoc-pydantic<2.0.0
+furo
+importlib-resources<6
+numpydoc
+pygments-csv-lexer
+# https://github.com/sphinx-doc/sphinx/issues/11662
+sphinx<7.2.5
+sphinx-copybutton
+sphinx-design
+sphinx-tabs
+sphinx-toolbox
+sphinx_substitution_extensions
+sphinxcontrib-towncrier
+towncrier
+urllib3

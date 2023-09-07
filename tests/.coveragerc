@@ -1,0 +1,21 @@
+[run]
+branch = True
+omit = tests/*
+parallel = true
+data_file = reports/.coverage
+
+[report]
+exclude_lines =
+    pragma: no cover
+    def __repr__
+    if self.debug:
+    if settings.DEBUG
+    raise AssertionError
+    raise NotImplementedError
+    if __name__ == .__main__.:
+    if TYPE_CHECKING:
+    class .*\bProtocol\):
+    @(abc\.)?abstractmethod
+    if pyspark_version
+    spark = SparkSession._instantiatedSession
+    if log.isEnabledFor(logging.DEBUG):
